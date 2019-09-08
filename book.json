@@ -1,0 +1,28 @@
+{
+    "title": "LeetCode",
+    "author": "River Liu",
+    "description": "LeetCode",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "sidebar": {
+            "小风筝说": "http://www.riverlcn.com"
+        }
+    },
+    "plugins": [
+        "mathjax",
+        "github",
+        "disqus"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/riverliu"
+        },
+        "disqus": {
+            "shortName": "riverlcn-leetcode"
+        }
+    }
+}
