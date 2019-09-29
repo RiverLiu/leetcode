@@ -13,16 +13,23 @@
         }
     },
     "plugins": [
-        "mathjax",
+        "-sharing",
+        "anchors",
+        "disqus",
         "github",
-        "disqus"
+        "katex",
+        "splitter",
+        "tags"
     ],
     "pluginsConfig": {
+        "disqus": {
+            "shortName": "riverlcn-leetcode"
+        },
         "github": {
             "url": "https://github.com/riverliu"
         },
-        "disqus": {
-            "shortName": "riverlcn-leetcode"
+        "tags": {
+            "placement": "bottom"
         }
     }
 }

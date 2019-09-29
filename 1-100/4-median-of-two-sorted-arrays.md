@@ -1,8 +1,9 @@
 # median-of-two-sorted-arrays 寻找两个有序数组的中位数
 
+tags: Hard, Array, Binary Search, Divide and Conquer
+
 - [题目链接](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [领扣链接](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
-- [tag] Hard, Array, Binary Search, Divide and Conquer
 
 我提交的解法
 

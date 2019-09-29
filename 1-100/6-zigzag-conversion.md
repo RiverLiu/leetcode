@@ -1,12 +1,13 @@
 # Z 字形变换
 
+tags: String
+
 - [题目链接](https://leetcode.com/problems/zigzag-conversion/submissions/)
 - [领扣链接](https://leetcode-cn.com/problems/zigzag-conversion/submissions/)
-- tag String
 
 ## 解法一 按行排序
 
-这是官方给出的解法，使用一组额外的列表存储字符串的值，列表的大小为 `$min(numRows, len(s))$`. 执行过程：遍历字符串，然后将第一个字符串放入第一个列表，第二个字符串放入第二个列表，依次类推，如果遇到第一行或者 `numRows` 行时，则将放入列表的顺序换成相反的方向。遍历完成后，将列表中的字符串拼接成一个字符串输出。
+这是官方给出的解法，使用一组额外的列表存储字符串的值，列表的大小为 $$min(numRows, len(s))$$. 执行过程：遍历字符串，然后将第一个字符串放入第一个列表，第二个字符串放入第二个列表，依次类推，如果遇到第一行或者 `numRows` 行时，则将放入列表的顺序换成相反的方向。遍历完成后，将列表中的字符串拼接成一个字符串输出。
 
 官方代码：
 
@@ -40,8 +41,8 @@ class Solution {
 
 **复杂度分析**
 
-- 时间复杂度：程序中遍历字符串，时间复杂度为 `$O(n)$`
-- 空间复杂度：使用了额外的列表，大小为 `$O(n), n = len(s)$`
+- 时间复杂度：程序中遍历字符串，时间复杂度为 $$O(n)$$
+- 空间复杂度：使用了额外的列表，大小为 $$O(n), n = len(s)$$
 
 ## 解法二 按行访问
 
@@ -49,9 +50,9 @@ class Solution {
 
 每一行的字符所在字符串的位置如下
 
-- 行 `0` 中的字符位于索引 k 为 `$2 \cdot \text{numRows} - 2)$` 处;
-- 行 `numRows−1` 中的字符位于索引 k 为 `$2 \cdot \text{numRows} - 2) + \text{numRows} - 1$` 处;
-- 内部的 行 ii 中的字符位于索引 k 为 `$2 \cdot \text{numRows}-2)+i$` 以及 (k+1) `$2 \cdot \text{numRows}-2)- i(k+1)$` 处;
+- 行 `0` 中的字符位于索引 k 为 $$2 \cdot \text{numRows} - 2)$$ 处;
+- 行 `numRows−1` 中的字符位于索引 k 为 $$2 \cdot \text{numRows} - 2) + \text{numRows} - 1$$ 处;
+- 内部的 行 ii 中的字符位于索引 k 为 $$2 \cdot \text{numRows}-2)+i$$ 以及 (k+1) $$2 \cdot \text{numRows}-2)- i(k+1)$$ 处;
 
 下面代码是我提交的，代码把第`0`行和`numRows-1`做单独处理了，看起来，代码写的很多内容。官方的解法比这个简单，官方解法使用了一个 `cycleLen` 每次循环增加的值，也就是说同一行，第 `k` 和 `k + 1` 索引是与 `cycleLen` 有关联的。
 

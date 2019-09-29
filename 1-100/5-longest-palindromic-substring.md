@@ -1,9 +1,9 @@
 # longest-palindromic-substring 最长的回文字符串
 
+tags: Medium, Array, Dynamic Programming
+
 - [题目链接](https://leetcode.com/problems/longest-palindromic-substring/submissions/)
 - [领扣链接](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)
-- [tag] Medium, Array, Dynamic Programming
-
 
 # 解法一：暴力法
 
@@ -45,12 +45,12 @@
 
 **复杂度分析**
 
-- 时间复杂度： `$O(n^3)$` 3层循环
-- 空间复杂度：`$O(1)$`
+- 时间复杂度：$$O(n^3)$$ 3层循环
+- 空间复杂度：$$O(1)$$
 
 # 解法二 动态规划
 
-如果对于字符串 `bab` 是回文字符串，那么字符串 `ababa` 一定是回文字符串，因为首尾字符都是 `a`. 我们定义 `$P(i, j)$` 表示下标`$[i,j]` 的字符串
+如果对于字符串 `bab` 是回文字符串，那么字符串 `ababa` 一定是回文字符串，因为首尾字符都是 `a`. 我们定义 $$P(i, j)$$ 表示下标$$[i,j]$$ 的字符串
 
 ```math
 P(i, j) = \
@@ -101,14 +101,14 @@ public String longestPalindrome(String s) {
 
 **复杂度分析:**
 
-- 时间复杂度: `$O(n^2)$` 两层 for 循环
-- 空间复杂度: `$O(n^2)$` 存储 dp 数组
+- 时间复杂度: $$O(n^2)$$ 两层 for 循环
+- 空间复杂度: $$O(n^2)$$ 存储 dp 数组
 
 # 解法三： 中心扩展法(官方算法)
 
-我们观察到回文中心的两侧互为镜像。因此，回文可以从它的中心展开，并且只有 `$2n - 1$` 个这样的中心。
+我们观察到回文中心的两侧互为镜像。因此，回文可以从它的中心展开，并且只有 $$2n - 1$$ 个这样的中心。
 
-你可能会问，为什么会是 `$2n - 1$` 个，而不是 `$n$` 个中心？原因在于所含字母数为偶数的回文的中心可以处于两字母之间（例如 `$\textrm{"abba"}$` 的中心在两个 `$\textrm{'b'}$`之间）。
+你可能会问，为什么会是 $$2n - 1$$ 个，而不是 $$n$$ 个中心？原因在于所含字母数为偶数的回文的中心可以处于两字母之间（例如 $$\textrm{"abba"}$$ 的中心在两个 $$\textrm{'b'}$$之间）。
 
 ```java
 
@@ -139,8 +139,8 @@ private int expandAroundCenter(String s, int left, int right) {
 
 **复杂度分析**
 
-- 时间复杂度：`$O(n^2)$` 由于围绕中心来扩展回文会耗去 O(n)O(n) 的时间，所以总的复杂度为 `$O(n^2)$`
-- 空间复杂度：`$O(1)$`
+- 时间复杂度：$$O(n^2)$$ 由于围绕中心来扩展回文会耗去 O(n)O(n) 的时间，所以总的复杂度为 $$O(n^2)$$
+- 空间复杂度：$$O(1)$$
 
 # 解法四： Manacher's Alogrithm
 
