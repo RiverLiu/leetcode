@@ -15,5 +15,15 @@
   * [8-整数反转](1-100/8-string-to-integer-atoi.md)
   * [9-回文数](1-100/9-palindrome-number.md)
   * [11-盛最多水的容器](1-100/11-container-with-most-water.md)
+  * [24-两两交换链表中的节点](1-100/24-swap-nodes-in-pairs.md)
+  * [25-K 个一组翻转链表](1-100/25-reverse-nodes-in-k-group.md)
   * [26-删除排序数组中的重复项](1-100/26-remove-duplicates-from-sorted-array.md)
   * [27-移除元素](1-100/27-remove-element.md)
+* 101-200
+  * [141-环形链表](101-200/141-linked-list-cycle.md)
+  * [142--环形链表 ii](101-200/142-linked-list-cycle-ii.md)
+* 201-300
+  * [206-反转链表](201-300/206-reverse-linked-list.md)
+
+
+
