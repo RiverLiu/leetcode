@@ -15,6 +15,7 @@
   * [8-整数反转](1-100/8-string-to-integer-atoi.md)
   * [9-回文数](1-100/9-palindrome-number.md)
   * [11-盛最多水的容器](1-100/11-container-with-most-water.md)
+  * [20-有效的括号](1-100/20-valid-parentheses.md)
   * [24-两两交换链表中的节点](1-100/24-swap-nodes-in-pairs.md)
   * [25-K 个一组翻转链表](1-100/25-reverse-nodes-in-k-group.md)
   * [26-删除排序数组中的重复项](1-100/26-remove-duplicates-from-sorted-array.md)
@@ -24,6 +25,12 @@
   * [142--环形链表 ii](101-200/142-linked-list-cycle-ii.md)
 * 201-300
   * [206-反转链表](201-300/206-reverse-linked-list.md)
+  * [225-用队列实现栈](201-300/225-implement-stack-using-queues.md)
+  * [232-用栈实现队列](201-300/232-implement-queue-using-stacks.md)
+* 701-800
+  * [703-数据流中的第K大元素](701-800/703-kth-largest-element-in-a-stream.md)
+* 801-900
+  * [844-比较含退格的字符串](801-900/844-backspace-string-compare.md)
 
 
 

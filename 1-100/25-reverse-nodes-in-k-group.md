@@ -2,7 +2,7 @@
 
 https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
 
-先分组，在进行反转，记录上一组的未节点，然后再拼接。难点在于，节点之间的拼接
+先分组，在进行反转，记录上一组的未节点，然后再拼接。难点在于，节点之间的拼接。
 
 ```java
 /**
