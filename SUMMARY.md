@@ -29,6 +29,8 @@
   * [206-反转链表](201-300/206-reverse-linked-list.md)
   * [225-用队列实现栈](201-300/225-implement-stack-using-queues.md)
   * [232-用栈实现队列](201-300/232-implement-queue-using-stacks.md)
+  * [235-二叉搜索树的最近公共祖先](201-300/235-lowest-common-ancestor-of-a-binary-search-tree.md)
+  * [236-二叉树的最近公共祖先](201-300/236-lowest-common-ancestor-of-a-binary-tree.md)
   * [239-滑动窗口最大值](201-300/239-sliding-window-maximum.md)
   * [242-有效的字母异位词](201-300/242-valid-anagram.md)
   
