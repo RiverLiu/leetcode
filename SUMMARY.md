@@ -44,5 +44,8 @@
 * 801-900
   * [844-比较含退格的字符串](801-900/844-backspace-string-compare.md)
 
+* 901-1000
+  * [# 983-最低票价](901-1000/983-minimum-cost-for-tickets.md)
+
 
 
