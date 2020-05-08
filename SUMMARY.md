@@ -41,7 +41,10 @@
   * [236-二叉树的最近公共祖先](201-300/236-lowest-common-ancestor-of-a-binary-tree.md)
   * [239-滑动窗口最大值](201-300/239-sliding-window-maximum.md)
   * [242-有效的字母异位词](201-300/242-valid-anagram.md)
-  
+
+* 501-600
+  * [572-另一个树的子树](501-600/572-subtree-of-another-tree.md)
+
 * 701-800
   * [703-数据流中的第K大元素](701-800/703-kth-largest-element-in-a-stream.md)
 * 801-900
