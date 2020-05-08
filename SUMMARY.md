@@ -16,6 +16,7 @@
   * [9-回文数](1-100/9-palindrome-number.md)
   * [11-盛最多水的容器](1-100/11-container-with-most-water.md)
   * [20-有效的括号](1-100/20-valid-parentheses.md)
+  * [22-括号生成](1-100/22-generate-parentheses.md)
   * [24-两两交换链表中的节点](1-100/24-swap-nodes-in-pairs.md)
   * [25-K 个一组翻转链表](1-100/25-reverse-nodes-in-k-group.md)
   * [26-删除排序数组中的重复项](1-100/26-remove-duplicates-from-sorted-array.md)
