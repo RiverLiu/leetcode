@@ -21,6 +21,7 @@
   * [25-K 个一组翻转链表](1-100/25-reverse-nodes-in-k-group.md)
   * [26-删除排序数组中的重复项](1-100/26-remove-duplicates-from-sorted-array.md)
   * [27-移除元素](1-100/27-remove-element.md)
+  * [36-有效的数独](1-100/36-valid-sudoku.md)
   * [50-Pow\(x, n\)](1-100/50-powx-n.md)
   * [51-N皇后](1-100/51-n-queens.md)
   * [52-N皇后 ii](1-100/52-n-queens-ii.md)
