@@ -25,6 +25,7 @@
   * [50-Pow\(x, n\)](1-100/50-powx-n.md)
   * [51-N皇后](1-100/51-n-queens.md)
   * [52-N皇后 ii](1-100/52-n-queens-ii.md)
+  * [69-x 的平方根](1-100/69-sqrtx.md)
   * [98-验证二叉搜索树](1-100/98-validate-binary-search-tree.md)
 * 101-200
   * [102-二叉树的层序遍历](101-200/102-binary-tree-level-order-traversal.md)
