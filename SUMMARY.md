@@ -51,6 +51,9 @@
   * [239-滑动窗口最大值](201-300/239-sliding-window-maximum.md)
   * [242-有效的字母异位词](201-300/242-valid-anagram.md)
   * [221-最大正方形](201-300/221-maximal-squaremd.md)
+
+* 301-400  
+  * [338-比特位计数](301-400/338-counting-bits.md)
 * 501-600
   * [560-和为K的子数组](501-600/560-subarray-sum-equals-k.md)
   * [563-二叉树的坡度](501-600/563-binary-tree-tilt.md)
