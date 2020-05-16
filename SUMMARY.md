@@ -44,6 +44,7 @@
   * [208-实现 Trie (前缀树)](201-300/208-implement-trie-prefix-tree.md)
   * [212-单词搜索 II](201-300/212-word-search-ii.md)
   * [225-用队列实现栈](201-300/225-implement-stack-using-queues.md)
+  * [231-2的幂](201-300/231-power-of-two.md)
   * [232-用栈实现队列](201-300/232-implement-queue-using-stacks.md)
   * [235-二叉搜索树的最近公共祖先](201-300/235-lowest-common-ancestor-of-a-binary-search-tree.md)
   * [236-二叉树的最近公共祖先](201-300/236-lowest-common-ancestor-of-a-binary-tree.md)
