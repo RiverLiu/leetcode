@@ -37,6 +37,8 @@
   * [141-环形链表](101-200/141-linked-list-cycle.md)
   * [142--环形链表 ii](101-200/142-linked-list-cycle-ii.md)
   * [155-最小栈](101-200/155-min-stack.md)
+  * [191-位1的个数](101-200/191-number-of-1-bits.md)
+  
 * 201-300
   * [206-反转链表](201-300/206-reverse-linked-list.md)
   * [208-实现 Trie (前缀树)](201-300/208-implement-trie-prefix-tree.md)
