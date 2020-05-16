@@ -38,6 +38,7 @@
   * [122-买卖股票的最佳时机 II](101-200/122-best-time-to-buy-and-sell-stock-ii.md)
   * [141-环形链表](101-200/141-linked-list-cycle.md)
   * [142--环形链表 ii](101-200/142-linked-list-cycle-ii.md)
+  * [152-乘积最大子数组](101-200/152-maximum-product-subarray.md)
   * [155-最小栈](101-200/155-min-stack.md)
   * [191-位1的个数](101-200/191-number-of-1-bits.md)
   
