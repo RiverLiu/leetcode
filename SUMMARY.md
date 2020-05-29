@@ -47,6 +47,7 @@
   * [208-实现 Trie (前缀树)](201-300/208-implement-trie-prefix-tree.md)
   * [210-课程表 II](201-300/210-course-schedule-ii.md)
   * [212-单词搜索 II](201-300/212-word-search-ii.md)
+  * [213-打家劫舍 II](201-300/213-house-robber-ii.md)
   * [225-用队列实现栈](201-300/225-implement-stack-using-queues.md)
   * [231-2的幂](201-300/231-power-of-two.md)
   * [232-用栈实现队列](201-300/232-implement-queue-using-stacks.md)
