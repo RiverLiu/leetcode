@@ -15,6 +15,7 @@
   * [8-整数反转](1-100/8-string-to-integer-atoi.md)
   * [9-回文数](1-100/9-palindrome-number.md)
   * [11-盛最多水的容器](1-100/11-container-with-most-water.md)
+  * [15-三数之和](1-100/15-3sum.md)
   * [16-最接近的三数之和](1-100/16-3sum-closest.md)
   * [20-有效的括号](1-100/20-valid-parentheses.md)
   * [22-括号生成](1-100/22-generate-parentheses.md)
