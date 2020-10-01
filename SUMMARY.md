@@ -76,4 +76,5 @@
   * [\# 983-最低票价](901-1000/983-minimum-cost-for-tickets.md)
 * 1401-1500
   * [1431-拥有最多糖果的孩子](1401-1500/1431-kids-with-the-greatest-number-of-candies.md)
+  * [1528-重新排列字符串](1401-1500/1528-shuffle-string.md)
 
