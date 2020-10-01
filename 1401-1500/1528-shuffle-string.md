@@ -39,9 +39,9 @@
 提示：
 
 s.length == indices.length == n
-1 <= n <= 100
-s 仅包含小写英文字母。
-0 <= indices[i] < n
+`1 <= n <= 100`
+`s` 仅包含小写英文字母。
+`0 <= indices[i] < n`
 indices 的所有的值都是唯一的（也就是说，indices 是整数 0 到 n - 1 形成的一组排列）。
 
 # 题解
